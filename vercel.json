@@ -1,5 +1,1 @@
-{
-  "public": true,
-  "functions": {"api/index.js": {"includeFiles": "../dist/server"}},
-  "rewrites": [{"source": "/(.*)", "destination": "/api"}]
-}
+{"build": {"env": {"ENABLE_VC_BUILD": "1"}}}
